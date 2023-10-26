@@ -1,0 +1,52 @@
+*,
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title__text {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.padding__block {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.paragraph__text {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.registered__users__text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main__table {
+    width: 100%;
+    text-align: left;
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+}
+
+.search__block {
+    margin-top: 30px;
+    display: grid;
+}
+
+.enter__login {
+    color: red;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.login__input {
+    width: min-content;
+}
